@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
 </head>
+
+
 <body>
 
-<div class="wrapper">
-
 <header>
-    <div class="logo clearfix ">
-        <img src="img/logo.png" width="78" height="21" alt="logo">
-    </div>
+    <div class="wrapper-nav"> <!--Контейнер для навігації сайту-->
+    
+        <div class="logo clearfix ">
+           <img src="img/logo.png" width="78" height="21" alt="logo"></div>
+        
 
-    <div>
-        <nav class="menu clearfix"> 
+      
             <ul class="list clearfix">
                 <li class="list-item"><a href="#">Home</a></li>
                 <li class="list-item"><a href="#">About Us</a></li>
@@ -28,24 +29,29 @@
                 <li class="list-item"><a href="#">blog</a></li>
                 <li class="list-item"><a href="#">Contact Us</a></li>
             </ul>
-        </nav>
+
     </div>
 </header>
 
+
+
+
 <div class="slider">
+<div class="wrapper-slider">   <!--Контейнер для слайда-->
     <img src="img/1.png" width="1600" height="600" alt="slider">
-    <div class="overlay-slider">
-    </div>
+    <div class="overlay-slider"></div>
     <div class="info-slider">
         <div class="text-slider">AFFORDABLE PARIS TOURS</div>
         <div class="text2-slider">CITY TOURS / TOUR TICKETS / TOUR GUIDES</div>
-      <button class="button-ctrl button-prev"></button>
-      <button class="button-ctrl button-next"></button>
+      <button class="button-ctrl button-prev"><img src="img/left.png" width="26" height="40" alt=""></button>
+      <button class="button-ctrl button-next"><img src="img/right.png" width="26" height="40" alt=""></button>
     </div>
-</div>
-    
 
-<div class="block-new-collection">
+</div>
+</div>
+
+
+<div class="wrapper-new-collection">
 
 <div class="new colection">
     <h2>NEW COLLECTION</h2>
@@ -68,7 +74,7 @@
                <button class="icon icon1"><img src="img/01.png" width="50" height="50" alt="like"></button>
                <button class="icon icon2"><img src="img/02.png" width="50" height="50" alt=""></button>
                <button class="icon icon3"><img src="img/03.png" width="50" height="50" alt=""></button>
-               <button class="icon-basket">add to cart</button>
+               <button class="icon-basket"><img class="image-icon-basket" src="img/04.png" width="34" height="34" alt="">add to cart</button>
     </div>
 </div>
 
@@ -85,7 +91,7 @@
                <button class="icon icon1"><img src="img/01.png" width="50" height="50" alt="like"></button>
                <button class="icon icon2"><img src="img/02.png" width="50" height="50" alt=""></button>
                <button class="icon icon3"><img src="img/03.png" width="50" height="50" alt=""></button>
-               <button class="icon-basket">add to cart</button>
+               <button class="icon-basket"><img class="icon-image-basket" src="img/04.png" width="34" height="34" alt="">add to cart</button>
     </div>
 </div>
 
@@ -103,7 +109,7 @@
                <button class="icon icon1"><img src="img/01.png" width="50" height="50" alt="like"></button>
                <button class="icon icon2"><img src="img/02.png" width="50" height="50" alt=""></button>
                <button class="icon icon3"><img src="img/03.png" width="50" height="50" alt=""></button>
-               <button class="icon-basket">add to cart</button>
+               <button class="icon-basket"><img class="icon-image-basket" src="img/04.png" width="34" height="34" alt="">add to cart</button>
     </div>
 </div>
 
@@ -119,10 +125,10 @@
 
 <div class="overlay"></div>
     <div class="icons">
-               <button class="icon icon1"><img src="img/01.png" width="50" height="50" alt="like"></button>
+               <button class="icon icon1"><img src="img/01.png" width="50" height="50" alt=""></button>
                <button class="icon icon2"><img src="img/02.png" width="50" height="50" alt=""></button>
                <button class="icon icon3"><img src="img/03.png" width="50" height="50" alt=""></button>
-               <button class="icon-basket">add to cart</button>
+               <button class="icon-basket"><img class="icon-image-basket" src="img/04.png" width="34" height="34" alt="">add to cart</button>
     </div>
 </div>
 
@@ -131,10 +137,12 @@
    
 </div>
 
-</div>  
+
    
 <footer>
+    <div class="wrapper-footer">
     <p>All Rights Reserved © Dokan | Designed ThemenGraph</p>
+</div>
 
 </footer>
 
