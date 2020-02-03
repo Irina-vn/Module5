@@ -89,6 +89,13 @@ img{
     position: relative;
 }
 
+.image-slider{
+    width: 1600px;
+    height: 600px;
+    background-image: url("img/1");
+
+}
+
 .overlay-slider{
     position: absolute;
     width: 1600px;
