@@ -28,6 +28,12 @@ img{
     display: table;
 }
 
+.wrapper{
+    width: 1600px;
+    margin: 0 auto;
+
+}
+
 .wrapper-nav{
     width: 1112px;
     height: 26px;
@@ -91,8 +97,9 @@ img{
 
 .image-slider{
     width: 1600px;
-    height: 600px;
-    background-image: url("img/1");
+    min-height: 600px;
+    background-image:url(../img/slider.png);
+    background-repeat: no-repeat;
 
 }
 
@@ -184,6 +191,11 @@ img{
      color: #ffffff;
     left: 420px;
     top: 296px;
+ }
+
+ .collection{
+     width: 1600px;
+     background-color: #e9f0fd;
  }
 
  .wrapper-new-collection{
@@ -327,30 +339,41 @@ h2::after{
 .icon-basket{
     position: absolute;
     height: 50px;
-    padding-left: 12px ;
-    padding-right: 16px ;
+    width: 168px;
+    padding-left: 12px;
+    padding-right: 16px;
     background-color: rgb(50, 50, 50);
     border: rgb(255, 255, 255, 1);
     border-style: solid;
     border-width: 1px;
+    left: 46px;
+    top: 148px;
+    cursor: pointer;
+}
+.icon-image-basket{
+    width: 34px;
+    height: 34px;
+    float: left;
+}
+
+.text-button{
+    position: absolute;
+    left: 54px;
+    bottom: 18px;
     text-transform: uppercase;
+    line-height: 1.2;
     color: #ffffff;
     font-size: 14px;
     font-weight: 500;
-    left: 46px;
-    top: 148px;
-    line-height: 14px;
-    cursor: pointer;
+
 }
 
-.icon-image-basket{
-    float: left;
-}
 
+/*
 
 .text-icon-basket{
     float: left;
-}
+}*/
 /*
 .icon-basket::before{
     content: url(img/04.png);
@@ -377,10 +400,6 @@ h2::after{
     opacity: 1;
 
 }
-
-
-
-
 
 .wrapper-footer{
     color: #ffffff;
