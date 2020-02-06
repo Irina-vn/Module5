@@ -34,10 +34,9 @@ img{
 
 }
 
-.wrapper-nav{
+.navigation{
     width: 1112px;
     height: 26px;
-    margin-left: 244px;
     margin-top: 38px;
     margin-bottom: 30px;
 }
@@ -85,17 +84,27 @@ img{
     color: #1abc9c;
 }
 
-
-
-.slider{
+.wrapper-slider{
     width: 1600px;
-    height: 600px;
-    position: relative;
+    margin: 0 auto;
 }
 
+.slider{
+    width: 100%;
+    height: 600px;
+    
+}
+/*
 .image-slider{
     width: 1600px;
     min-height: 600px;
+    
+
+}*/
+.section-slider{
+    width: 1600px;
+    height: 600px;
+    position: relative;
     background-image:url(../img/slider.png);
     background-repeat: no-repeat;
 
@@ -192,7 +201,6 @@ img{
  }
 
  .collection{
-     width: 1600px;
      background-color: #e9f0fd;
  }
 /*
@@ -223,6 +231,10 @@ h2::after{
     margin-left: 474px;
     margin-top: 30px;
     margin-bottom: 80px;
+}
+
+.cards{
+margin-bottom: 100px;
 }
 
 
@@ -280,10 +292,9 @@ h2::after{
     background-color: #7fd9c7;
 }
 
-.block-new-collection{
+.collection{
     background-color: #e9f0fd;
-    min-width: 1600px;
-    min-height: 676px;
+    width: 100%;
 }
 
 .overlay{
@@ -399,6 +410,11 @@ h2::after{
 }
 
 .wrapper-footer{
+width: 1600px;
+margin: 0 auto;
+}
+
+.podval{
     color: #ffffff;
     font-size: 16px;
     width: 1600px;
@@ -408,10 +424,10 @@ h2::after{
     padding-top: 26px;
 }
 
-.wrapper-footer:hover{
+.podval:hover{
     color: #46bfa9;
 }
 
-.wrapper-footer:focus{
+.podval:focus{
     color: #46bfa9;
 }
