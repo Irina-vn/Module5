@@ -29,7 +29,7 @@ img{
 }
 
 .wrapper{
-    width: 1600px;
+    width: 1112px;
     margin: 0 auto;
 
 }
@@ -44,8 +44,6 @@ img{
 
 .logo{
     float: left;
-    width: 78px;
-    height: 21px;
 }
 
 .list{
@@ -197,13 +195,12 @@ img{
      width: 1600px;
      background-color: #e9f0fd;
  }
-
+/*
  .wrapper-new-collection{
      width: 1112px;
-     min-height: 676px;
      margin-left: 244px;
  }
-
+*/
 h2{
     width: 1112px;
     min-height: 74px;
