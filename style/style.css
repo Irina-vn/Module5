@@ -99,7 +99,8 @@ img{
 }
 
 .section-slider{
-    width: 1600px;
+    position: absolute;
+    width: 100%;
     height: 600px;
 }
 
@@ -112,7 +113,7 @@ img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0;
+    opacity: 1;
 }
 
 .info-slider{
@@ -121,14 +122,14 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+/*
 .slider:hover .overlay-slider{
     opacity: 0.55;
 }
-
+/*
 .slider:focus .overlay-slider{
     opacity: 0.55;
-}
+}*/
 
 .button-ctrl{
     width: 105px;
@@ -151,15 +152,17 @@ img{
 
 .button-prev{
     position: absolute;
-    left: 246px;
-    top: 226px;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
 }
 
 
 .button-next{
     position: absolute;
-    left: 1254px;
-    top: 226px;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
 }
 
 .text-slider{
