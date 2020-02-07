@@ -92,27 +92,21 @@ img{
 .slider{
     width: 100%;
     height: 600px;
-    
-}
-/*
-.image-slider{
-    width: 1600px;
-    min-height: 600px;
-    
-
-}*/
-.section-slider{
-    width: 1600px;
-    height: 600px;
     position: relative;
     background-image:url(../img/slider.png);
     background-repeat: no-repeat;
-
+    background-size: cover;
 }
+
+.section-slider{
+    width: 1600px;
+    height: 600px;
+}
+
 
 .overlay-slider{
     position: absolute;
-    width: 1600px;
+    width: 100%;
     height: 600px;
     background-color: rgb(115, 115, 115, 0.55);
     top: 50%;
@@ -123,8 +117,6 @@ img{
 
 .info-slider{
     position: absolute;
-    width: 1600px;
-    height: 600px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -159,29 +151,20 @@ img{
 
 .button-prev{
     position: absolute;
-    left: 242px;
+    left: 246px;
     top: 226px;
 }
-/*
-.button-prev::before{
-    content: url(img/left.png);
-}*/
+
 
 .button-next{
     position: absolute;
     left: 1254px;
     top: 226px;
 }
-/*
-.button-next::before{
-    content: url(img/right.png);
-}*/
 
 .text-slider{
-    position: absolute;
-    top: 210px;
-    left: 420px;
-    display: inline-block;
+    top: 218px;
+    left: 430px;
     width: 760px;
     min-height: 74px;
     font-size: 60px;
@@ -190,14 +173,12 @@ img{
 }
 
 .text2-slider{
-    position: absolute;
-    display: inline-block;
     width: 500px;
     min-height: 42px;
      font-size: 24px;
      color: #ffffff;
-    left: 420px;
-    top: 296px;
+    left: 430px;
+    top: 298px;
  }
 
  .collection{
@@ -233,15 +214,13 @@ h2::after{
     margin-bottom: 80px;
 }
 
-.cards{
-margin-bottom: 100px;
-}
 
 
 .card{
     position: relative;
     float: left;
     margin-right: 30px;
+    margin-bottom: 100px;
 }
 
 .card:nth-of-type(4n){
@@ -406,22 +385,18 @@ margin-bottom: 100px;
 
 .card:hover .icons{
     opacity: 1;
-
 }
 
-.wrapper-footer{
-width: 1600px;
-margin: 0 auto;
-}
 
 .podval{
     color: #ffffff;
     font-size: 16px;
-    width: 1600px;
-    height: 88px;
+    width: 1112px;
     text-align: center;
     background-color:#323232;
     padding-top: 26px;
+    padding-bottom: 32px;
+    padding-top: 38px;
 }
 
 .podval:hover{
