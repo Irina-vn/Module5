@@ -153,7 +153,7 @@ img{
 .button-prev{
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 10%;
     transform: translate(-50%, -50%);
 }
 
@@ -161,7 +161,7 @@ img{
 .button-next{
     position: absolute;
     top: 50%;
-    left: 70%;
+    right: 10%;
     transform: translate(-50%, -50%);
 }
 
