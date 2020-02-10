@@ -244,8 +244,7 @@ h2::after{
 
 .card-name{
     float: left;
-    width: 201px;
-    height: 40px;
+    width: 80%;
     background-color: #323232;
     color: #ffffff;
     text-transform: uppercase;
@@ -254,16 +253,24 @@ h2::after{
     line-height: 40px;
 }
 
+.card-name p{
+    margin: 5px auto;
+}
+
+
 .card-price{
     float: right;
-    width: 54px;
-    height: 40px;
+    width: 20%;
     background-color: #8c8c8c;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
     line-height: 40px;
+}
+
+.card-price p{
+    margin: 5px auto;
 }
 
 .card:hover .card-price{
@@ -390,16 +397,18 @@ h2::after{
     opacity: 1;
 }
 
+footer{
+       
+}
 
 .podval{
     color: #ffffff;
     font-size: 16px;
     width: 1112px;
     text-align: center;
-    background-color:#323232;
-    padding-top: 26px;
     padding-bottom: 32px;
     padding-top: 38px;
+    background-color:#323232;
 }
 
 .podval:hover{
