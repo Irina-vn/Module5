@@ -194,6 +194,7 @@ img{
  }
 */
 h2{
+    position: relative;
     width: 1112px;
     min-height: 74px;
     font-size: 48px;
@@ -203,27 +204,33 @@ h2{
     text-align: center;
     margin: 0px; 
    padding-top: 100px;
+   margin-bottom: 80px;
    
 }
 
 h2::after{
+    position: absolute;
+    left: 474px;
+    bottom: -30px;
     display: block;
     width: 164px;
     height: 7px;
     background-color: #1abc9c;
-    content: "";
+    content: "";/*
+
     margin-left: 474px;
-    margin-top: 30px;
-    margin-bottom: 80px;
+    margin-top: 30px;*/
+   
 }
 
-
+.cards{
+    padding-bottom: 100px;
+}
 
 .card{
     position: relative;
     float: left;
     margin-right: 30px;
-    margin-bottom: 100px;
 }
 
 .card:nth-of-type(4n){
@@ -398,7 +405,7 @@ h2::after{
 }
 
 footer{
-       
+    background-color:#323232;     
 }
 
 .podval{
@@ -408,7 +415,7 @@ footer{
     text-align: center;
     padding-bottom: 32px;
     padding-top: 38px;
-    background-color:#323232;
+    
 }
 
 .podval:hover{
